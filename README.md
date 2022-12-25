@@ -4,6 +4,10 @@ The C++ Random Name Generator is an object-oriented program designed with the C+
 ------------
 
 
+Update 1.03: 2022-12-24
+
+Updates to Generator.cpp, Generator.h, FemaleNameGiven.cpp, MaleNameGiven.h, and MaleNameGiven.cpp.
+
 Update 1.02: 2022-12-23
 
 New files added: FemaleNameGiven.h, FemaleNameGiven.cpp, MaleNameGiven.h, and MaleNameGiven.cpp.
