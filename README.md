@@ -3,6 +3,10 @@ The C++ Random Name Generator is an object-oriented program designed with the C+
 
 ------------
 
+Update 1.04: 2023-01-01
+
+Tested new options for generating names.
+
 
 Update 1.03: 2022-12-24
 
