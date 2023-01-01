@@ -11,7 +11,7 @@ using namespace std;
 
 
 
-vector<string> MaleNameGiven::africanGivenNamesMale() const
+string MaleNameGiven::africanGivenNamesMale()
 {
     srand((unsigned int)time(NULL));
 
@@ -19,12 +19,14 @@ vector<string> MaleNameGiven::africanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::africanAmericanGivenNamesMale() const
+string MaleNameGiven::africanAmericanGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -33,12 +35,14 @@ vector<string> MaleNameGiven::africanAmericanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::americanGivenNamesMale() const
+string MaleNameGiven::americanGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -47,11 +51,13 @@ vector<string> MaleNameGiven::americanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::arabicGivenNamesMale() const
+string MaleNameGiven::arabicGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -60,11 +66,13 @@ vector<string> MaleNameGiven::arabicGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::armenianGivenNamesMale() const
+string MaleNameGiven::armenianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -73,11 +81,13 @@ vector<string> MaleNameGiven::armenianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::celticGivenNamesMale() const
+string MaleNameGiven::celticGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -86,11 +96,13 @@ vector<string> MaleNameGiven::celticGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::chineseGivenNamesMale() const
+string MaleNameGiven::chineseGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -99,11 +111,13 @@ vector<string> MaleNameGiven::chineseGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::czechGivenNamesMale() const
+string MaleNameGiven::czechGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -112,12 +126,14 @@ vector<string> MaleNameGiven::czechGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::danishGivenNamesMale() const
+string MaleNameGiven::danishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -126,12 +142,14 @@ vector<string> MaleNameGiven::danishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::dutchGivenNamesMale() const
+string MaleNameGiven::dutchGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -140,12 +158,14 @@ vector<string> MaleNameGiven::dutchGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::egyptianGivenNamesMale() const
+string MaleNameGiven::egyptianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -154,12 +174,14 @@ vector<string> MaleNameGiven::egyptianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::englishGivenNamesMale() const
+string MaleNameGiven::englishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -168,13 +190,15 @@ vector<string> MaleNameGiven::englishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
 
-vector<string> MaleNameGiven::finnishGivenNamesMale() const
+string MaleNameGiven::finnishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -183,11 +207,13 @@ vector<string> MaleNameGiven::finnishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::frenchGivenNamesMale() const
+string MaleNameGiven::frenchGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -196,12 +222,14 @@ vector<string> MaleNameGiven::frenchGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::gaelicGivenNamesMale() const
+string MaleNameGiven::gaelicGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -210,12 +238,14 @@ vector<string> MaleNameGiven::gaelicGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::germanGivenNamesMale() const
+string MaleNameGiven::germanGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -224,12 +254,14 @@ vector<string> MaleNameGiven::germanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::greekGivenNamesMale() const
+string MaleNameGiven::greekGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -238,13 +270,15 @@ vector<string> MaleNameGiven::greekGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
 
-vector<string> MaleNameGiven::hawaiianGivenNamesMale() const
+string MaleNameGiven::hawaiianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -253,12 +287,14 @@ vector<string> MaleNameGiven::hawaiianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::hebrewGivenNamesMale() const
+string MaleNameGiven::hebrewGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -267,13 +303,15 @@ vector<string> MaleNameGiven::hebrewGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
 
-vector<string> MaleNameGiven::hindiGivenNamesMale() const
+string MaleNameGiven::hindiGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -282,13 +320,15 @@ vector<string> MaleNameGiven::hindiGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
 
-vector<string> MaleNameGiven::hungarianGivenNamesMale() const
+string MaleNameGiven::hungarianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -297,13 +337,15 @@ vector<string> MaleNameGiven::hungarianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
 
-vector<string> MaleNameGiven::indianGivenNamesMale() const
+string MaleNameGiven::indianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -312,12 +354,14 @@ vector<string> MaleNameGiven::indianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::irishGivenNamesMale() const
+string MaleNameGiven::irishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -326,12 +370,14 @@ vector<string> MaleNameGiven::irishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::italianGivenNamesMale() const
+string MaleNameGiven::italianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -340,12 +386,14 @@ vector<string> MaleNameGiven::italianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::japaneseGivenNamesMale() const
+string MaleNameGiven::japaneseGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -354,12 +402,14 @@ vector<string> MaleNameGiven::japaneseGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::koreanGivenNamesMale() const
+string MaleNameGiven::koreanGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -368,12 +418,14 @@ vector<string> MaleNameGiven::koreanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::latinGivenNamesMale() const
+string MaleNameGiven::latinGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -382,11 +434,13 @@ vector<string> MaleNameGiven::latinGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::middleEnglishGivenNamesMale() const
+string MaleNameGiven::middleEnglishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -395,11 +449,13 @@ vector<string> MaleNameGiven::middleEnglishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::nativeAmericanGivenNamesMale() const
+string MaleNameGiven::nativeAmericanGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -408,12 +464,14 @@ vector<string> MaleNameGiven::nativeAmericanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::norseGivenNamesMale() const
+string MaleNameGiven::norseGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -422,12 +480,14 @@ vector<string> MaleNameGiven::norseGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::oldEnglishGivenNamesMale() const
+string MaleNameGiven::oldEnglishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -436,12 +496,14 @@ vector<string> MaleNameGiven::oldEnglishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::oldFrenchGivenNamesMale() const
+string MaleNameGiven::oldFrenchGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -450,12 +512,14 @@ vector<string> MaleNameGiven::oldFrenchGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::oldGermanGivenNamesMale() const
+string MaleNameGiven::oldGermanGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -464,12 +528,14 @@ vector<string> MaleNameGiven::oldGermanGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::oldNorseGivenNamesMale() const
+string MaleNameGiven::oldNorseGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -478,12 +544,14 @@ vector<string> MaleNameGiven::oldNorseGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::persianGivenNamesMale() const
+string MaleNameGiven::persianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -492,12 +560,14 @@ vector<string> MaleNameGiven::persianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::polishGivenNamesMale() const
+string MaleNameGiven::polishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -506,11 +576,13 @@ vector<string> MaleNameGiven::polishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::polynesianGivenNamesMale() const
+string MaleNameGiven::polynesianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -519,12 +591,14 @@ vector<string> MaleNameGiven::polynesianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::russianGivenNamesMale() const
+string MaleNameGiven::russianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -533,11 +607,13 @@ vector<string> MaleNameGiven::russianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::sanskritGivenNamesMale() const
+string MaleNameGiven::sanskritGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -546,12 +622,14 @@ vector<string> MaleNameGiven::sanskritGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::scandinavianGivenNamesMale() const
+string MaleNameGiven::scandinavianGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -560,12 +638,14 @@ vector<string> MaleNameGiven::scandinavianGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::scottishGivenNamesMale() const
+string MaleNameGiven::scottishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -574,12 +654,14 @@ vector<string> MaleNameGiven::scottishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::slavicGivenNamesMale() const
+string MaleNameGiven::slavicGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -588,12 +670,14 @@ vector<string> MaleNameGiven::slavicGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::spanishGivenNamesMale() const
+string MaleNameGiven::spanishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -602,12 +686,14 @@ vector<string> MaleNameGiven::spanishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::swahiliGivenNamesMale() const
+string MaleNameGiven::swahiliGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -616,12 +702,14 @@ vector<string> MaleNameGiven::swahiliGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::swedishGivenNamesMale() const
+string MaleNameGiven::swedishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -630,12 +718,14 @@ vector<string> MaleNameGiven::swedishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::teutonicGivenNamesMale() const
+string MaleNameGiven::teutonicGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -644,11 +734,13 @@ vector<string> MaleNameGiven::teutonicGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::turkishGivenNamesMale() const
+string MaleNameGiven::turkishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -657,11 +749,13 @@ vector<string> MaleNameGiven::turkishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::vietnameseGivenNamesMale() const
+string MaleNameGiven::vietnameseGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -670,11 +764,13 @@ vector<string> MaleNameGiven::vietnameseGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
-vector<string> MaleNameGiven::welshGivenNamesMale() const
+string MaleNameGiven::welshGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -683,12 +779,14 @@ vector<string> MaleNameGiven::welshGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
 
 
-vector<string> MaleNameGiven::yiddishGivenNamesMale() const
+string MaleNameGiven::yiddishGivenNamesMale() const
 {
     srand((unsigned int)time(NULL));
 
@@ -697,9 +795,12 @@ vector<string> MaleNameGiven::yiddishGivenNamesMale() const
 
     random_shuffle(names.begin(), names.end());
 
-    return names;
+    string name = names[0];
+
+    return name;
 
 }
+
 
 
 //vector<string> getFirstName(int code)
