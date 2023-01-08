@@ -9,30 +9,21 @@ using namespace std;
 
 class Generator {
 	public:
-
-		//for testing purposes
-		Generator(int code, bool isMale, int number);
-
-		Generator(bool isMaleName, int firstNameCode, int lastNameCode, string lastNameOrigins, int numberOfRandomNames);
-
-		//Dtor
-		~Generator();
-
 		bool isNameMale(int input);
 
-		string* getFirstName(int code, bool isMale, int number);
+		vector<string> getFirstName(int code, bool isMale);
 
 
 	private:
 		bool isMaleName;
-		int firstNameCode;
-		int lastNameCode;
+		//int firstNameCode;
+		//int lastNameCode;
 
-		string firstName;
-		string firstNameOrigins;
-		string lastName;
-		string lastNameOrigins;
-		int numberOfRandomNames;
+		vector<string> firstName;
+		//string firstNameOrigins;
+		//string lastName;
+		//string lastNameOrigins;
+		//int numberOfRandomNames;
 };
 
 #endif
