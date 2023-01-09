@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 	bool isMale = true;
-	int numberOfNames = 10;
-	int code = 1;
+	int numberOfNames = 22;
+	int code = 25;
 
 	Generator test1 = Generator();
 	vector<string> firstNames = test1.getFirstName(code, isMale);

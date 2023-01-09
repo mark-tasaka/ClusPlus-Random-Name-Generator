@@ -1,5 +1,5 @@
 #include<iostream>
-#include <vector>
+#include <string>
 #include <vector>
 #include <stdio.h>
 #include <stdlib.h>   
@@ -659,19 +659,208 @@ vector<string> MaleNameGiven::yiddishGivenNamesMale() const
 vector<string> MaleNameGiven::getFirstName(int select) const
 {
     vector<string> firstName;
+
     if (select == 1)
     {
         firstName = africanGivenNamesMale();
     }
+    else if (select == 2)
+    {
+        firstName = africanAmericanGivenNamesMale();
+    }
+    else if (select == 3)
+    {
+        firstName = americanGivenNamesMale();
+    }
+    else if (select == 4)
+    {
+        firstName = arabicGivenNamesMale();
+    }
+    else if (select == 5)
+    {
+        firstName = armenianGivenNamesMale();
+    }
+    else if (select == 6)
+    {
+        firstName = celticGivenNamesMale();
+    }
+    else if (select == 7)
+    {
+        firstName = chineseGivenNamesMale();
+    }
+    else if (select == 8)
+    {
+        firstName = czechGivenNamesMale();
+    }
+    else if (select == 9)
+    {
+        firstName = danishGivenNamesMale();
+    }
+    else if (select == 10)
+    {
+        firstName = dutchGivenNamesMale();
+    }
+    else if (select == 11)
+    {
+        firstName = egyptianGivenNamesMale();
+    }
+    else if (select == 12)
+    {
+        firstName = englishGivenNamesMale();
+    }
+    else if (select == 13)
+    {
+        firstName = finnishGivenNamesMale();
+    }
+    else if (select == 14)
+    {
+        firstName = frenchGivenNamesMale();
+    }
+    else if (select == 15)
+    {
+        firstName = gaelicGivenNamesMale();
+    }
+    else if (select == 16)
+    {
+        firstName = germanGivenNamesMale();
+    }
+    else if (select == 17)
+    {
+        firstName = greekGivenNamesMale();
+    }
+    else if (select == 18)
+    {
+        firstName = hawaiianGivenNamesMale();
+    }
+    else if (select == 19)
+    {
+        firstName = hebrewGivenNamesMale();
+    }
+    else if (select == 20)
+    {
+        firstName = hindiGivenNamesMale();
+    }
+    else if (select == 21)
+    {
+        firstName = hungarianGivenNamesMale();
+    }
+    else if (select == 22)
+    {
+        firstName = indianGivenNamesMale();
+    }
+    else if (select == 23)
+    {
+        firstName = irishGivenNamesMale();
+    }
+    else if (select == 24)
+    {
+        firstName = italianGivenNamesMale();
+    }
+    else if (select == 25)
+    {
+        firstName = japaneseGivenNamesMale();
+    }
+    else if (select == 26)
+    {
+        firstName = koreanGivenNamesMale();
+    }
+    else if (select == 27)
+    {
+        firstName = latinGivenNamesMale();
+    }
+    else if (select == 28)
+    {
+       firstName = middleEnglishGivenNamesMale();
+    }
+    else if (select == 29)
+    {
+        firstName = nativeAmericanGivenNamesMale();
+    }
+    else if (select == 30)
+    {
+        firstName = norseGivenNamesMale();
+    }
+    else if (select == 31)
+    {
+        firstName = oldEnglishGivenNamesMale();
+    }
+    else if (select == 32)
+    {
+        firstName = oldFrenchGivenNamesMale();
+    }
+    else if (select == 33)
+    {
+        firstName = oldGermanGivenNamesMale();
+    }
+    else if (select == 34)
+    {
+        firstName = oldNorseGivenNamesMale();
+    }
+    else if (select == 35)
+    {
+        firstName = persianGivenNamesMale();
+    }
+    else if (select == 36)
+    {
+        firstName = polishGivenNamesMale();
+    }
+    else if (select == 37)
+    {
+        firstName = polynesianGivenNamesMale();
+    }
+    else if (select == 38)
+    {
+        firstName = russianGivenNamesMale();
+    }
+    else if (select == 39)
+    {
+        firstName = sanskritGivenNamesMale();
+    }
+    else if (select == 40)
+    {
+        firstName = scandinavianGivenNamesMale();
+    }
+    else if (select == 41)
+    {
+        firstName = scottishGivenNamesMale();
+    }
+    else if (select == 42)
+    {
+        firstName = slavicGivenNamesMale();
+    }
+    else if (select == 43)
+    {
+        firstName = spanishGivenNamesMale();
+    }
+    else if (select == 44)
+    {
+        firstName = swahiliGivenNamesMale();
+    }
+    else if (select == 45)
+    {
+        firstName = swedishGivenNamesMale();
+    }
+    else if (select == 46)
+    {
+        firstName = teutonicGivenNamesMale();
+    }
+    else if (select == 47)
+    {
+        firstName = turkishGivenNamesMale();
+    }
+    else if (select == 48)
+    {
+        firstName = vietnameseGivenNamesMale();
+    }
+    else if (select == 49)
+    {
+        firstName = welshGivenNamesMale();
+    }
+    else if (select == 50)
+    {
+        firstName = yiddishGivenNamesMale();
+    }
+
 
     return firstName;
 }
-
-//vector<vector<string>> getFirstName(int code)
-//{
-//    if (code == 0)
-//    {
-//        //this->firstName = MaleNameGiven::africanAmericanGivenNamesMale;
-//    }
-//
-//}
