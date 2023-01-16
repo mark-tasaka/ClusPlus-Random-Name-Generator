@@ -27,6 +27,12 @@ vector<string> Generator::getFirstName(int code, bool isMale)
 
 		this->firstName = maleName.getFirstName(code);
 	}
+	else
+	{
+		FemaleNameGiven femaleName = FemaleNameGiven();
+
+		this->firstName = femaleName.getFirstName(code);
+	}
 
 	return firstName;
 

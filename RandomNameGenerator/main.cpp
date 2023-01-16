@@ -2,6 +2,8 @@
 #include "Generator.h"
 using namespace std;
 
+
+
 int main()
 {
 	bool isMale = true;
