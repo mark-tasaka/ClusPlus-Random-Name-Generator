@@ -4,6 +4,7 @@
 #include <vector>
 #include "MaleNameGiven.h"
 #include "FemaleNameGiven.h"
+#include "Surname.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ class Generator {
 		bool isNameMale(int input);
 
 		vector<string> getFirstName(int code, bool isMale);
+		vector<string> getSurname(int code);
 
 
 	private:
@@ -20,6 +22,7 @@ class Generator {
 		//int lastNameCode;
 
 		vector<string> firstName;
+		vector<string> surname;
 		//string firstNameOrigins;
 		//string lastName;
 		//string lastNameOrigins;

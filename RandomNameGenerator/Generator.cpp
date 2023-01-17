@@ -37,3 +37,11 @@ vector<string> Generator::getFirstName(int code, bool isMale)
 	return firstName;
 
 }
+
+vector<string> Generator::getSurname(int code)
+{
+	Surname theSurname = Surname();
+	this->surname = theSurname.getSurnames(code);
+
+	return surname;
+}

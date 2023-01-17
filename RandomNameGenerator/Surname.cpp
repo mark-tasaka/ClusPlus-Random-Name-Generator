@@ -567,6 +567,74 @@ vector<string> Surname::getSurnames(int code) const
     {
         lastName = jewishSurnames();
     }
+    else if (code == 22)
+    {
+        lastName = koreanSurnames();
+    }
+    else if (code == 23)
+    {
+        lastName = lithuanianSurnames();
+    }
+    else if (code == 24)
+    {
+        lastName = muslimSurnames();
+    }
+    else if (code == 25)
+    {
+        lastName = norwegianSurnames();
+    }
+    else if (code == 26)
+    {
+        lastName = polishSurnames();
+    }
+    else if (code == 27)
+    {
+        lastName = portugueseSurnames();
+    }
+    else if (code == 28)
+    {
+        lastName = russianSurnames();
+    }
+    else if (code == 29)
+    {
+        lastName = scandinavianSurnames();
+    }
+    else if (code == 30)
+    {
+        lastName = scottishSurnames();
+    }
+    else if (code == 31)
+    {
+        lastName = slavicSurnames();
+    }
+    else if (code == 32)
+    {
+        lastName = spanishSurnames();
+    }
+    else if (code == 33)
+    {
+        lastName = swedishSurnames();
+    }
+    else if (code == 34)
+    {
+        lastName = swissSurnames();
+    }
+    else if (code == 35)
+    {
+        lastName = turkishSurnames();
+    }
+    else if (code == 36)
+    {
+        lastName = ukranianSurnames();
+    }
+    else if (code == 37)
+    {
+        lastName = vietnameseSurnames();
+    }
+    else if (code == 38)
+    {
+        lastName = welshSurnames();
+    }
 
     return lastName;
 
