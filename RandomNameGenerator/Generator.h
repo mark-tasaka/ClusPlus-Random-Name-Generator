@@ -5,6 +5,7 @@
 #include "MaleNameGiven.h"
 #include "FemaleNameGiven.h"
 #include "Surname.h"
+#include "NameOrigins.h"
 
 using namespace std;
 
