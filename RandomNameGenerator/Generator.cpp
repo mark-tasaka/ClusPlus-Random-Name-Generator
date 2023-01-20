@@ -4,6 +4,7 @@
 #include "Generator.h"
 #include "MaleNameGiven.h"
 #include "FemaleNameGiven.h"
+#include "NameOrigins.h"
 using namespace std;
 
 bool Generator::isNameMale(int input) 
@@ -45,3 +46,18 @@ vector<string> Generator::getSurname(int code)
 
 	return surname;
 }
+
+//
+//string Generator::surnameOrigins(int code)
+//{
+//	NameOrigins theSurnameOrigins = NameOrigins();
+//	this->surnameOrigins = theSurnameOrigins.getSurnameOrigins(code);
+//
+//	return surnameOrigins;
+//
+//}
+//
+//string Generator::firstNameOrigins(int code)
+//{
+//
+//}

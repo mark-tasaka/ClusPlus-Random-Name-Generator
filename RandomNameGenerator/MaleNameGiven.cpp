@@ -10,11 +10,6 @@
 using namespace std;
 
 
-//MaleNameGiven::MaleNameGiven(int select)
-//{
-//    this->firstName = getFirstName(select);
-//}
-
 vector<string> MaleNameGiven::africanGivenNamesMale() const
 {
 

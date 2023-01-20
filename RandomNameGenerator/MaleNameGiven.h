@@ -12,7 +12,6 @@ using namespace std;
 class MaleNameGiven {
 public:
 	//MaleNameGiven(int select);
-	vector<string> getFirstName(int select) const; 
 	vector<string> africanGivenNamesMale() const;
 	vector<string> africanAmericanGivenNamesMale() const;
 	vector<string> americanGivenNamesMale() const;
@@ -63,6 +62,7 @@ public:
 	vector<string> vietnameseGivenNamesMale() const;
 	vector<string> welshGivenNamesMale() const;
 	vector<string> yiddishGivenNamesMale() const;
+	vector<string> getFirstName(int select) const;
 
 private:
 	vector<string> firstName;

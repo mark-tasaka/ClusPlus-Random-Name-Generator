@@ -16,6 +16,9 @@ class Generator {
 		vector<string> getFirstName(int code, bool isMale);
 		vector<string> getSurname(int code);
 
+		//string surnameOrigins(int code);
+		//string firstNameOrigins(int code);
+
 
 	private:
 		bool isMaleName;
@@ -24,6 +27,8 @@ class Generator {
 
 		vector<string> firstName;
 		vector<string> surname;
+		string firstNameOrigins;
+		string surnameOrigins;
 		//string firstNameOrigins;
 		//string lastName;
 		//string lastNameOrigins;

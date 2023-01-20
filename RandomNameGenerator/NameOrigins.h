@@ -7,8 +7,12 @@ using namespace std;
 class NameOrigins
 {
 	public:
+		string getFirstNameOrigins(int code);
+		string getSurnameOrigins(int code);
 
 	private:
+		string firstNameOrigins;
+		string surnameOrigins;
 };
 
 #endif // ! NAME_ORIGINS_H
