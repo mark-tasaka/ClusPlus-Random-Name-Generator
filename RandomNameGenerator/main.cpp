@@ -3,16 +3,22 @@
 #include "NameOrigins.h"
 #include<fstream>
 #include <iomanip>
+#include<ctime>
+#include<cstdlib>
 using namespace std;
 
 
 
 int main()
 {
+
+	srand(time(0));
+
 	bool isMale = true;
-	int numberOfNames = 22;
-	int code = 25;
-	int code2 = 13;
+	int numberOfNames = rand() % 30 + 20;
+	//int code = 25;
+	int code = rand() %49 + 1;
+	int code2 = rand() % 37 + 1;
 	ofstream file;
 	int input = 0;
 
@@ -45,18 +51,24 @@ int main()
 	{
 		file.open("randomNames.txt");
 
+		file << "Random Names" << endl;
+		file << "---------------------------------" << endl << endl;
+
 		for (int i = 0; i < numberOfNames; i++)
 		{
 			file << firstNames[i] << " " << surnames[i] << endl;
 		}
 
 		file << endl;
+		file << "---------------------------------" << endl << endl;
 		file << "First name origins: " << firstNameOrigins << endl;
 		file << "Surname origins: " << surnameOrigins << endl;
+		file << "Number of Random Names Generated: " << numberOfNames << endl;
 
 		cout << "Text file created" << endl;
 	}
 
+	file.close();
 
 
 
