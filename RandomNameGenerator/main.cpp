@@ -28,8 +28,15 @@ int main()
 
 	NameOrigins test2 = NameOrigins();
 	string firstNameOrigins = test2.getFirstNameOrigins(code);
-	string surnameOrigins = test2.getSurnameOrigins(code);
+	string surnameOrigins = test2.getSurnameOrigins(code2);
 
+	cout << "Welcome to the Random Name Generator.  The generator has been designed to creat a list of randomly generated names." << endl << endl;
+
+	//cout << "Press any key to continue." << endl;
+
+	//Press any key to continue
+	system("pause");
+	cout << endl;
 
 
 
@@ -49,10 +56,14 @@ int main()
 
 	if (input == 1)
 	{
-		file.open("randomNames.txt");
+		string fileName = "randomNames";
+		string addition = to_string(1);
+		string endTxt = ".txt";
+		string theFileName = fileName + addition + endTxt;
+		file.open(theFileName);
 
-		file << "Random Names" << endl;
-		file << "---------------------------------" << endl << endl;
+		//file << "Random Names" << endl;
+		//file << "---------------------------------" << endl << endl;
 
 		for (int i = 0; i < numberOfNames; i++)
 		{
