@@ -15,8 +15,7 @@ int main()
 	srand(time(0));
 
 	bool isMale = true;
-	int numberOfNames = rand() % 30 + 20;
-	//int code = 25;
+	int numberOfNames = 0;
 	int code = rand() %49 + 1;
 	int code2 = rand() % 37 + 1;
 	ofstream file;
@@ -32,12 +31,13 @@ int main()
 
 	cout << "Welcome to the Random Name Generator.  The generator has been designed to creat a list of randomly generated names." << endl << endl;
 
-	//cout << "Press any key to continue." << endl;
-
 	//Press any key to continue
 	system("pause");
 	cout << endl;
 
+	cout << "Please enter the number of random names you would like to generate.  Please enter an integer." << endl;
+
+	cin >> numberOfNames;
 
 
 	for (int i = 0; i < numberOfNames; i++)
