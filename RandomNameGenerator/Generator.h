@@ -13,8 +13,8 @@ class Generator {
 	public:
 		bool isNameMale(int input);
 
-		vector<string> getFirstName(int code, bool isMale);
-		vector<string> getSurname(int code);
+		vector<string> getFirstName(int code, bool isMale, int count);
+		vector<string> getSurname(int code, int count);
 
 		//string surnameOrigins(int code);
 		//string firstNameOrigins(int code);

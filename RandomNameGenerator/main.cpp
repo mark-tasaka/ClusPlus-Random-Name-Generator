@@ -22,8 +22,8 @@ int main()
 	int input = 0;
 
 	Generator test1 = Generator();
-	vector<string> firstNames = test1.getFirstName(code, isMale);
-	vector<string> surnames = test1.getSurname(code2);
+	vector<string> firstNames = test1.getFirstName(code, isMale, numberOfNames);
+	vector<string> surnames = test1.getSurname(code2, numberOfNames);
 
 	NameOrigins test2 = NameOrigins();
 	string firstNameOrigins = test2.getFirstNameOrigins(code);
@@ -38,12 +38,16 @@ int main()
 	cout << "Please enter the number of random names you would like to generate.  Please enter an integer." << endl;
 
 	cin >> numberOfNames;
-
-
+	
 	for (int i = 0; i < numberOfNames; i++)
 	{
 		cout << firstNames[i] << " " << surnames[i] << endl;
 	}
+
+	//for (int i = 0; i < numberOfNames; i++)
+	//{
+	//	cout << firstNames[i] << " " << surnames[i] << endl;
+	//}
 
 	cout << endl;
 	cout << "First name origins: " << firstNameOrigins << endl;
