@@ -12,6 +12,7 @@ using namespace std;
 vector<string> Surname::africanSurnames(int count) const
 {
     vector<string> randomNames;
+    randomNames.resize(count);
 
     vector<string> names = { "Ba", "Bah", "Ballo", "Cisse", "Contee", "Conteh", "Diallo", "Fall", "Kone", "Mensah", "Ndiaye", "Nwosu", "Okafor", "Okeke", "Okoro", "Osei", "Owusu", "Sall", "Sane", "Sarr", "Sesay", "Sow", "Sy", "Toure", "Traore", "Turay", "Yeboah" };
 

@@ -16,33 +16,42 @@ int main()
 
 	bool isMale = true;
 	int numberOfNames = 0;
-	int code = rand() %49 + 1;
-	int code2 = rand() % 37 + 1;
+	//int code = rand() %49 + 1;
+	//int code2 = rand() % 37 + 1;
+	int code = 1;
+	int code2 = 1;
 	ofstream file;
 	int input = 0;
 
 	Generator test1 = Generator();
 	vector<string> firstNames = test1.getFirstName(code, isMale, numberOfNames);
-	vector<string> surnames = test1.getSurname(code2, numberOfNames);
+	//vector<string> surnames = test1.getSurname(code2, numberOfNames);
 
 	NameOrigins test2 = NameOrigins();
 	string firstNameOrigins = test2.getFirstNameOrigins(code);
-	string surnameOrigins = test2.getSurnameOrigins(code2);
+	//string surnameOrigins = test2.getSurnameOrigins(code2);
 
 	cout << "Welcome to the Random Name Generator.  The generator has been designed to creat a list of randomly generated names." << endl << endl;
 
 	//Press any key to continue
-	system("pause");
-	cout << endl;
-
+	//system("pause");
+	//cout << endl;
+	/*
 	cout << "Please enter the number of random names you would like to generate.  Please enter an integer." << endl;
 
 	cin >> numberOfNames;
-	
+	*/
+	numberOfNames = 9;
+
+	for (int i = 0; i < numberOfNames; i++)
+	{
+		cout << firstNames[i] << " " << endl;
+	}
+	/*
 	for (int i = 0; i < numberOfNames; i++)
 	{
 		cout << firstNames[i] << " " << surnames[i] << endl;
-	}
+	}*/
 
 	//for (int i = 0; i < numberOfNames; i++)
 	//{
@@ -51,7 +60,7 @@ int main()
 
 	cout << endl;
 	cout << "First name origins: " << firstNameOrigins << endl;
-	cout << "Surname origins: " << surnameOrigins << endl;
+	//cout << "Surname origins: " << surnameOrigins << endl;
 
 	cout << endl;
 
@@ -68,10 +77,10 @@ int main()
 
 		//file << "Random Names" << endl;
 		//file << "---------------------------------" << endl << endl;
-
+		/*
 		for (int i = 0; i < numberOfNames; i++)
 		{
-			file << firstNames[i] << " " << surnames[i] << endl;
+			file << firstNames[i]  << " " << surnames[i] << endl;
 		}
 
 		file << endl;
@@ -79,6 +88,7 @@ int main()
 		file << "First name origins: " << firstNameOrigins << endl;
 		file << "Surname origins: " << surnameOrigins << endl;
 		file << "Number of Random Names Generated: " << numberOfNames << endl;
+		*/
 
 		cout << "Text file created" << endl;
 	}

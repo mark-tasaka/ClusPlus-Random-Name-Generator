@@ -22,17 +22,20 @@ bool Generator::isNameMale(int input)
 
 vector<string> Generator::getFirstName(int code, bool isMale, int count)
 {
+	vector<string> firstName;
+	//firstName.resize(count);
+
 	if (isMale == true)
 	{
 		MaleNameGiven maleName = MaleNameGiven();
 
-		this->firstName = maleName.getFirstName(code, count);
+		firstName = maleName.getFirstName(code, count);
 	}
 	else
 	{
 		FemaleNameGiven femaleName = FemaleNameGiven();
 
-		this->firstName = femaleName.getFirstName(code, count);
+		firstName = femaleName.getFirstName(code, count);
 	}
 
 	return firstName;
@@ -41,8 +44,10 @@ vector<string> Generator::getFirstName(int code, bool isMale, int count)
 
 vector<string> Generator::getSurname(int code, int count)
 {
+	vector<string> surname;
+	//surname.resize(count);
 	Surname theSurname = Surname();
-	this->surname = theSurname.getSurnames(code, count);
+	surname = theSurname.getSurnames(code, count);
 
 	return surname;
 }
